@@ -1,4 +1,4 @@
-const username = "Alvin"
+// const username = "Alvin"
 
 // let username2 = "Alvin"
 
@@ -16,10 +16,20 @@ const username = "Alvin"
 function addTwoNumbers(num1, num2) {
   return num1 + num2;
 }
-console.log(addTwoNumbers(10, 10) + 100)
 
-const four = 4;
+// console.log(addTwoNumbers(10, 10) + 100)
 
-console.log(four + 6)
+// const four = 4;
 
-console.log(username + " How are you?")
+// console.log(four + 6)
+
+// console.log(username + " How are you?")
+
+
+const something = process
+
+
+const newArr = process.argv.slice(2)
+console.log(newArr)
+
+console.log(addTwoNumbers(Number(newArr[0]), Number(newArr[1])))
