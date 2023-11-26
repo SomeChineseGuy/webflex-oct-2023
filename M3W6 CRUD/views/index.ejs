@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Lighthouse Labs Fast foods!</h1>
+  
+  <% for(let combo in combos) {  %>
+    <div style="border: 10px tomato solid; max-width: 800px; margin: 10px auto; padding: 0 20px;">
+      <p>Main: <%= combos[combo].main %></p>
+      <p>Side: <%= combos[combo].side %></p>
+      <p>Drink: <%= combos[combo].drink %></p>
+      <a href="/combos/<%= combo %>">More Detail</a>
+      <form action="/combos/delete/<%= combo %>" method="POST">
+        <button>Delete</button>
+  
+      </form>
+    </div>
+
+  <% } %>
+
+  <form action="/combos" method="POST">
+    <label for="">Main</label>
+    <input type="text" name="main" id="">
+    <br>
+    <label for="">Side</label>
+    <input type="text" name="side" id="">
+    <br>
+    <label for="">Drink</label>
+    <input type="text" name="drink" id="">
+    <br>
+    <button type="submit">Submit</button>
+  </form>
+
+
+
+</body>
+</html>

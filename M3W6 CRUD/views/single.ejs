@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1 style="text-align: center;">Single Item</h1>
+  <div style="border: 10px salmon solid; max-width: 800px; margin: 0 auto; padding: 0 20px;">
+    <h2>Main: <%= combo.main %></h2>
+    <h2>Side: <%= combo.side %></h2>
+    <h2>Drink: <%= combo.drink %></h2>
+  </div>
+  <form action="/combos/edit/<%= combo.id %>" method="POST">
+    <label for="">Main</label>
+    <input type="text" name="main" id="">
+    <br>
+    <label for="">Side</label>
+    <input type="text" name="side" id="">
+    <br>
+    <label for="">Drink</label>
+    <input type="text" name="drink" id="">
+    <br>
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+</html>
