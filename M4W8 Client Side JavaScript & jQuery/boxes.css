@@ -1,0 +1,43 @@
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+  align-items: center;
+}
+
+body {
+  background: tomato;
+}
+
+.box {
+  padding: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+}
+
+.box-one {
+  background-color: purple;
+}
+
+.box-two {
+  background-color: gold;
+}
+
+.box-three {
+  background-color: pink;
+}
+
+.box-four {
+  background-color: aqua;
+}
+
+/* .box-one, .box-two, .box-three {
+  padding: 200px
+} */
+
+.green {
+  background-color: green;
+}

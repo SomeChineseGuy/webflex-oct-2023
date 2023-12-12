@@ -1,0 +1,12 @@
+body {
+  background-color: #469a53;
+}
+
+#main-list {
+  border: 10px dotted purple
+}
+
+li {
+  color: tomato;
+}
+
