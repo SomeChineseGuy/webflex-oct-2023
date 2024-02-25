@@ -1,0 +1,8 @@
+- Rick and Morty - 6 Seasons, Comedy/Sci-fi, Adult swim
+- Monthy Python - Comedy, 10 season, Prime
+- Cunk on Earth - Comedy/Interview, 5 season, HBO
+- Halo - Season 2, Action, Paramount Plus+
+- Breaking Bad - 7 seasons, Thriller, Netflix
+- Vikings - Action, 5 seasons, Netflix
+- The Bear - season 2, Disney+, Drama
+- Demon Slayer - 3 seasons, netflix, action/anime
